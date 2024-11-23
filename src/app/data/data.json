@@ -1,0 +1,60 @@
+{
+  "name": "Hilali Salwa",
+  "title": "Senior Full Stack Developer",
+  "contact": {
+      "phone": "+216 55443017",
+      "email": "salwahilali@bcepharma.com",
+      "location": "Monastir, Tunisie"
+  },
+  "skills": [
+      "Développement Frontend: React.js, Redux, JavaScript (ES6+), HTML5, CSS3",
+      "Développement Backend: Symfony, Node.js, RESTful APIs",
+      "DevOps: Docker, Jenkins, CI/CD pipelines, AWS",
+      "Bases de données: MySQL, MongoDB",
+      "Outils et Méthodologies: Agile/Scrum, Git, Jira, Confluence",
+      "Analyse et Résolution de Problèmes",
+      "Communication et Travail en Équipe"
+  ],
+  "experience": [
+      {
+          "title": "BCEPHARMA - Programme QUESS 360",
+          "role": "Senior Full Stack Developer",
+          "duration": "Août 2021 – Octobre 2023",
+          "description": [
+              "Développement et maintenance d'applications web pour la gestion de protocoles stériles/non-stériles.",
+              "Implémentation de systèmes avancés de gestion documentaire.",
+              "Création d'applications mobiles pour la gestion de formations.",
+              "Intégration de services pour la détection de résidus dangereux.",
+              "Déploiement et optimisation des pipelines CI/CD sur AWS."
+          ],
+          "tech_environment": "React.js, Node.js, Docker, AWS, MySQL, MongoDB, RESTful APIs"
+      },
+      {
+          "title": "QUESS-Magistrale",
+          "role": "Développeur Full Stack",
+          "duration": "Août 2023 – Présent",
+          "description": [
+              "Développement d'APIs pour la gestion des utilisateurs et des données.",
+              "Configuration et sécurisation des environnements Docker avec certificats SSL.",
+              "Mise en œuvre des meilleures pratiques pour l'optimisation des performances."
+          ],
+          "tech_environment": "Symfony, React.js, Docker, MySQL, OpenSSL"
+      }
+  ],
+  "education": [
+      "Master en Cloud Computing et Virtualisation",
+      "Bachelor en Développement Logiciel - Université de Monastir",
+      "AWS RE/START PROGRAM CLOUD FOUNDATIONS - Amazon Web Service"
+  ],
+  "languages": [
+      "Français: Professionnel",
+      "Anglais: Professionnel",
+      "Arabe: Courant"
+  ],
+  "interests": [
+      "Automatisation des Processus",
+      "Programmation et Conception Logicielle",
+      "Cloud Computing et Sécurité",
+      "DeFi et Trading"
+  ]
+}

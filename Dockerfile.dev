@@ -1,0 +1,14 @@
+# Utilisez l'image officielle de Node.js comme base
+FROM node:latest AS dev
+
+# Travaillez dans le répertoire /app
+WORKDIR /app
+
+# Copiez les fichiers du projet dans le conteneur
+COPY . .
+
+# Installez les dépendances du projet
+RUN npm install
+
+# Lancez le serveur de développement de Next.js avec la fonctionnalité de hot reloading pour les fichiers de contenu
+CMD npm run dev

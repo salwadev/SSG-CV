@@ -1,0 +1,19 @@
+services:
+  build:
+    build:
+      context: .
+      dockerfile: Dockerfile.build
+    volumes:
+      - build_data:/app/out
+
+  run:
+      image: nginx:stable-alpine
+      ports:
+        - 3000:80
+      depends_on:
+        - build
+      volumes:
+        - build_data:/usr/share/nginx/html
+
+volumes:
+  build_data:
